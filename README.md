@@ -1,4 +1,4 @@
-# ByrdGlacierGStatsMCMCAnalysis
+# Byrd Glacier: Geostatistical Markov Chain Monte Carlo (MCMC) Analysis
 
 ## Description
 Bed topography mapping of **Byrd Glacier** using Sequential Gaussian Simulation (SGS) and a Metropolis–Hastings (MCMC) framework, with a focus on how bed uncertainty propagates into mass conservation residuals.
