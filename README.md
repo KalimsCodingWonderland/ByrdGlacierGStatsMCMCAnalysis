@@ -3,9 +3,6 @@
 ## Description
 Bed topography mapping of **Byrd Glacier** using Sequential Gaussian Simulation (SGS) and a Metropolis–Hastings (MCMC) framework, with a focus on how bed uncertainty propagates into mass conservation residuals.
 
-## Note
-Figures are saved as `.svg` where possible. For best quality, download and view locally rather than relying on the GitHub preview.
-
 ---
 
 ## Initial Topographies
