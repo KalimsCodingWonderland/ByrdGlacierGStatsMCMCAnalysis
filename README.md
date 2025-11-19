@@ -5,7 +5,7 @@ Bed topography mapping of **Byrd Glacier** using Sequential Gaussian Simulation 
 
 ---
 
-## Initial Topographies
+## Figures
 
 **A) Surface Ice Velocity Magnitude**  
 Large-scale view of surface speed over the Byrd Glacier catchment, used to define fast-flowing regions and flux gates.
@@ -21,10 +21,6 @@ Existing bed product used as a reference surface and baseline for flux divergenc
 
 **E) BedMap3 Bed Elevation**  
 Alternate large-scale bed product for the same domain, highlighting differences in trough structure and sill heights.
-
----
-
-## MCMC Topography
 
 **F) Geostatistical Realization**  
 An SGS-based bed realization at 500 m resolution that honors radar data and spatial covariance, used as an initial condition for MCMC.
@@ -43,6 +39,8 @@ Distribution of flux divergence residuals, used to evaluate how well a given bed
 
 **K) Isotropic Experimental Variogram**  
 Empirical variogram of the normal-score bed data, used to set variogram parameters for SGS and to inform prior structure in MCMC.
+
+**Final Realizations**
 
 ---
 
