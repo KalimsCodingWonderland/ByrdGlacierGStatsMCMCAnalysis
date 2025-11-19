@@ -1,7 +1,7 @@
 # Byrd Glacier: Geostatistical Markov Chain Monte Carlo (MCMC) Analysis
 
 ## Description
-Bed topography mapping of **Byrd Glacier** using Sequential Gaussian Simulation (SGS) and a Markov Chain Monte Carlo (MCMC) framework, built on top of BedMachine/Bedmap3 products and compiled radar thickness measurements. This repository walks through the full workflow from loading and cleaning Antarctic datasets, constructing a 500 m grid of surface, thickness, and bed, and defining a fast-flowing grounded-ice mask, to fitting a Matern variogram, running SGS to generate geostatistical bed realizations, and using mass-conservation flux divergence to evaluate each realization. By treating bed elevation as a random field and sampling it in a Bayesian framework, the project focuses on how uncertainty in subglacial topography propagates into mass conservation residuals and where Byrd Glacier’s flux budget is most sensitive to bed errors. All code used for labs, variogram analysis, SGS simulations, residual calculations, and final poster figures is collected here for reproducibility and future extension.
+Bed topography mapping of **Byrd Glacier** using Sequential Gaussian Simulation (SGS) and a Markov Chain Monte Carlo (MCMC) framework, built on top of BedMachine/Bedmap3 products and compiled radar thickness measurements. This repository walks through the full workflow from loading and cleaning Antarctic datasets, constructing a 500 m grid of surface, thickness, and bed, and defining a fast-flowing grounded-ice mask, to fitting a Matern variogram, running SGS to generate geostatistical bed realizations, and using mass-conservation flux divergence to evaluate each realization. All code used for labs, variogram analysis, SGS simulations, and final poster figures is collected here for reproducibility and future extension.
 
 ---
 
@@ -57,5 +57,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placeholder for a short
 ---
 
 ## Poster
-Final Poster
+Final Poster (Placeholder)
 [annotated-GLY4930%20Poster%20-%20Byrd%20Glacier%20-%20Kalim%20Qazi.pdf](https://github.com/user-attachments/files/23615942/annotated-GLY4930.20Poster.20-.20Byrd.20Glacier.20-.20Kalim.20Qazi.pdf)
