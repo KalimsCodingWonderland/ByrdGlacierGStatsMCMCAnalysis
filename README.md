@@ -1,12 +1,25 @@
 # Byrd Glacier: Geostatistical MCMC Bed Topography
 
-> 🧊❄️ Mapping a rough, mass-conserving bed for one of Antarctica’s fastest outlet glaciers using Sequential Gaussian Simulation + Markov Chain Monte Carlo.
-
----
+> 🧊❄️ What does the bed of one of Antarctica’s fastest glaciers look like?  
+> This repo tries to **x-ray Byrd Glacier’s hidden landscape** by fusing satellites, radar, and geostatistics into one mass-conserving picture of the bed. 🛰️📡📉
 
 ## 1. Project overview
 
-This repository implements a full **geostatistical Markov Chain Monte Carlo (MCMC)** workflow to infer bed topography beneath **Byrd Glacier**, a fast-flowing outlet that drains grounded ice into the **Ross Ice Shelf** via the **Transantarctic Mountains**.
+This repository implements a full **geostatistical Markov Chain Monte Carlo (MCMC)** workflow to infer bed topography beneath **Byrd Glacier** ⛰️, a fast-flowing outlet that threads through the **Transantarctic Mountains** and drains grounded ice into the **Ross Ice Shelf** 🧊.
+
+On a **500 m grid** we:
+
+- stitch together **big Antarctic data products**  
+  → 🌍 Bedmap3, 🧮 BedMachine, 🧊 MEaSUREs velocity, 🌨️ RACMO SMB, 📉 ITS_LIVE dh/dt  
+- blend in **radar-derived thickness points** 🎯  
+- and then use **Sequential Gaussian Simulation (SGS)** 🎲 + **MCMC** 🔁  
+  to search for bed realizations that are:
+  - **physically consistent** (low mass-conservation residuals in the fast trunk) ⚖️
+  - **glaciologically rough** (realistic troughs, ridges, and outlets) 🌊⛰️
+
+Think of it as:
+
+> **“Start from a geostatistical prior → push it toward a physically consistent, mass-conserving bed while keeping it rough.”** 🧩🧊
 
 The goals are to:
 
@@ -21,9 +34,6 @@ The goals are to:
   - Roughness / variogram
   - Mass-flux residuals
   - Visual structure (troughs, ridges, outlets)
-
-Think of it as:  
-**“Start from a geostatistical prior → push it toward a physically consistent, mass-conserving bed while keeping it rough.”** 🧩
 
 ---
 
