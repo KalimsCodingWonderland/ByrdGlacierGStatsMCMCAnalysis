@@ -229,7 +229,7 @@ Built on the **Gator Glaciology** MCMC framework and datasets:
 - **MCMC method & code base**  
   - Shao, N., MacKie, E., Field, M., & McCormack, F. (2025).  
     *A Markov chain Monte Carlo approach for geostatistically simulating mass-conserving subglacial topography.* Journal of Glaciology.  
-  - Original code: [Niya Shao’s geostatisticalMCMC repository].
+  - Original code: [[Niya Shao’s geostatisticalMCMC repository]](https://github.com/NiyaShao/geostatisticalMCMC).
 
 - **GStatSim / variogram & SGS implementation**  
   - MacKie, E., Field, M., Wang, L., Schoedl, N., & Hibbs, M. (2022).  
