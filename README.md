@@ -239,7 +239,7 @@ If you use this code or figures in future work, please acknowledge the Gator Gla
 ---
 
 ## Poster
-![Full Poster](./figures/GLY4930FinalPosterByrdGlacierKalimQazi.png)
+![Full Poster](./figures/OfficalGLY4930PosterByrdGlacierKalimQazi.pdf)
 
 ## 8. Data sources & acknowledgements
 
