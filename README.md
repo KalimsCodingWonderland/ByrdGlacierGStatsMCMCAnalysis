@@ -233,6 +233,9 @@ If you use this code or figures in future work, please acknowledge the Gator Gla
 
 ---
 
+## Poster
+![Full Poster](./figures/GLY4930FinalPosterByrdGlacierKalimQazi.png)
+
 ## 8. Data sources & acknowledgements
 
 Built on the **Gator Glaciology** MCMC framework and datasets:
